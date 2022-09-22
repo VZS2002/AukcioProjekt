@@ -45,11 +45,41 @@ public class Festmeny {
     }
 
     public void setElkelt(boolean elkelt) {
-        this.elkelt = true;
+        this.elkelt = elkelt;
     }
 
-    public void licit(int mertek) {
 
+    public void licit() {
+        if (this.elkelt) {
+            System.out.println("Ez a festmény elkelt");
+        } else if (legmagasabbLicit == 0) {
+            this.legmagasabbLicit = 100;
+            this.licitekSzama++;
+            this.legutolsoLicitIdeje = LocalDateTime.now();
+
+
+        }
+        else {
+            licit(10);
+        }
+    }
+
+
+    public void licit(int mertek) {
+        if (this.elkelt) {
+            System.out.println("Ez a festmény elkelt");
+        } else if (mertek <10 || mertek  > 100) {
+            System.out.println("Hibás paraméter");
+
+        }
+
+        else {
+            this.legmagasabbLicit= (int)(legmagasabbLicit*1.1);
+
+            this.licitekSzama++;
+            this.legutolsoLicitIdeje = LocalDateTime.now();
+
+        }
     }
 
 }
