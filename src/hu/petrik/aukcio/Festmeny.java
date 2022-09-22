@@ -81,5 +81,17 @@ public class Festmeny {
 
         }
     }
+@Override
+    public String toString(){
+String elkelt;
+if (this.elkelt){
+    elkelt="elkelt";
+}
+else{
+    elkelt="nem kelt el";
+}
+
+return festo +": " + cim + " ( " + stilus +" ) " + elkelt + " " + legmagasabbLicit + "$ - " + legutolsoLicitIdeje+"(összesen: "+ licitekSzama + " db)" ;
+    }
 
 }
