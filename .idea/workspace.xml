@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74851349-2e8b-4c06-a068-9df5b9ea938e" name="Changes" comment="licit">
+    <list default="true" id="74851349-2e8b-4c06-a068-9df5b9ea938e" name="Changes" comment="licit mertek">
+      <change afterPath="$PROJECT_DIR$/src/hu/petrik/aukcio/Festmenyek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/petrik/aukcio/Festmeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/aukcio/Festmeny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/aukcio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/aukcio/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663830868011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="licit mertek">
+      <created>1663832375104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663832375104</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
     <MESSAGE value="Festmeny.java" />
     <MESSAGE value="osztalyok" />
     <MESSAGE value="licit" />
-    <option name="LAST_COMMIT_MESSAGE" value="licit" />
+    <MESSAGE value="licit mertek" />
+    <option name="LAST_COMMIT_MESSAGE" value="licit mertek" />
   </component>
 </project>
